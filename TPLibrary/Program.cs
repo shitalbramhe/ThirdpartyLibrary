@@ -7,8 +7,10 @@ namespace TPLibrary
     {
         static void Main(string[] args)
         {
-            CSVHandler.ImplementCSVHandling();
-           
+           // CSVHandler.ImplementCSVHandling();
+            ReadCSV_And_WriteJSON.Implement_CSVToJSON();
+
+
         }
     }
 }
